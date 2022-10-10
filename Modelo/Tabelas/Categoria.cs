@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Modelo.Cadastros;
 
-namespace aula.Models
+namespace Modelo.Tabelas
 {
-    public class Fabricante
+    public class Categoria
     {
-        public long FabricanteId { get; set; }
+        public long CategoriaId { get; set; }
         public string Nome { get; set; }
-
         public virtual ICollection<Produto> Produtos { get; set; }
     }
 }

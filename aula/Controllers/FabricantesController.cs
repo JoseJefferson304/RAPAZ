@@ -1,5 +1,6 @@
 ﻿using aula.App_Start.Models;
 using aula.Models;
+using Modelo.Cadastros;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

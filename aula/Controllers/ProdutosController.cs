@@ -7,6 +7,7 @@ using System.Web.Mvc;
 using System.Data.Entity;
 using aula.Models;
 using System.Net;
+using Modelo.Cadastros;
 
 namespace aula.Controllers
 {
